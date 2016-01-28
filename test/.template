@@ -1,0 +1,14 @@
+'use strict'
+import { test } from 'tap'
+import { testRender } from './utils'
+import React from 'react'
+
+import {{camel}} from '../js/{{camel}}'
+
+test('{{camel}}', t => {
+  t.plan(1)
+
+  testRender(<{{camel}} />, output => {
+    t.ok(output, 'renders')
+  })
+})
